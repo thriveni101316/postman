@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="selenium.AssertionValidation">
+        <methods>
+          <include name="initialization"/>
+          <include name="close"/>
+          <include name="getHeader"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- selenium.AssertionValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
